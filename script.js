@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // O código vem aqui
-});
-
-document.addEventListener('DOMContentLoaded', function() {
     var stream = document.querySelector('.gallery__stream');
     var items = document.querySelectorAll('.gallery__item');
     var prev = document.querySelector('.gallery__prev');
