@@ -182,7 +182,6 @@ header[data-parallax=group] {
 }
 
 .preamble {
-  background-color: white;
   box-shadow: 0 0 10vh rgba(0, 0, 0, 0.8);
 }
 
@@ -219,6 +218,10 @@ stars,
 
 .plot--content {
   z-index: -10;
+}
+
+.body-hqs{
+  background-color: white;
 }
 
 footer {
