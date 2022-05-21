@@ -162,6 +162,7 @@ header[data-parallax=group] {
   font-size: 6vw;
   letter-spacing: 0.24em;
 }
+
 .title p {
   max-width: 100%;
   margin-top: 1ex;
@@ -194,24 +195,12 @@ header[data-parallax=group] {
   text-shadow: 0 0 2px black;
 }
 
-.stars,
+stars,
 .deep-stars {
   top: -10vh;
   bottom: -10vh;
   z-index: -1;
   background-color: #214;
-}
-
-.stars {
-  background-size: 200%;
-  background-position: center left;
-  opacity: 0.8;
-}
-
-.deep-stars {
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
 }
 
 .plot {
@@ -339,31 +328,45 @@ body {
 }
 
 .bg-1 {
-  background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487589/star-wars-1_kgt8dr.jpg);
+  background-image: url(assets/gallery_01.jpg);
+  border: 3px solid rgb(149, 161, 37);
+  border-radius: 10px;
 }
 
 .bg-2 {
-  background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-2_tgzyxe.jpg);
+  background-image: url(assets/gallery_02.png);
+  border: 3px solid rgb(209, 31, 31);
+  border-radius: 10px;
 }
 
 .bg-3 {
-  background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-3_bkcmeb.jpg);
+  background-image: url(assets/gallery_03.jpg);
+  border: 3px solid red;
+  border-radius: 10px;
 }
 
 .bg-4 {
-  background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-4_opgyza.jpg);
+  background-image: url(assets/gallery_04.jpg);
+  border: 3px solid orangered;
+  border-radius: 10px;
 }
 
 .bg-5 {
-  background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-5_ulc9tx.jpg);
+  background-image: url(assets/gallery_05.jpg);
+  border: 3px solid rgba(255, 0, 0, 0.808);
+  border-radius: 10px;
 }
 
 .bg-6 {
-  background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487591/star-wars-6_la8whc.jpg);
+  background-image: url(assets/gallery_06.jpeg);
+  border: 3px solid blue;
+  border-radius: 10px;
 }
 
 .bg-7 {
-  background-image: url(https://res.cloudinary.com/dm7h7e8xj/image/upload/v1554487590/star-wars-7_l3fcor.jpg);
+  background-image: url(assets/gallery_07.jpg);
+  border: 3px solid red;
+  border-radius: 10px;
 }
 
 .gallery__prev,
