@@ -275,7 +275,7 @@ button{
   --enhanced-glow-color: white;
   --btn-color: #214;
   border: .30em solid var(--glow-color);
-  padding: 2em 6em;
+  padding: 1em 3em;
   color: var(--glow-color);
   font-size: 35px;
   font-weight: bold;
