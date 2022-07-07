@@ -20,6 +20,12 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 1.5%;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -49,7 +55,7 @@ h1{
     box-sizing: border-box;
     font-family: 'Rubik';
     font-size: 26px;
-    color: #532e83;
+    color: white;
     outline: none;
     transition: .5s;
 }
@@ -67,7 +73,8 @@ h1{
 .container{
     max-width: 80%;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 2%;
+    border-radius: 12px;
     background-color: #532e83;
 }
 
@@ -83,4 +90,12 @@ h1{
 .card{
     height: 200px;
     background-color: red;
+}
+
+.search{
+    padding: 5%;
+    padding-top: 7%;
+    margin-bottom: 1;
+    align-items: center;
+    justify-content: center;
 }
